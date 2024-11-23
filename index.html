@@ -9,34 +9,36 @@
   <body>
     <header class="header">
       <div class="header_container">
-        <!-- чому при додаванні класу до ul стилі до лінків застосовуюються дивно? а якщо обгорнути li у дів то працює коректно -->
-        <nav>
-          <a href="#">
-            <img src="./icons/logo.svg" alt="logo beauty zone" />
-          </a>
-          <ul>
-            <div class="list_container">
-              <li><a href="#about-us-section">Про нас</a></li>
-              <li><a href="#why-section">Чому ми</a></li>
-              <li><a href="#procedures-section">Наші процедури</a></li>
-              <li><a href="#contacts-section">Контакти</a></li>
-            </div>
+        <div class="header_box">
+          <!-- чому при додаванні класу до ul стилі до лінків застосовуюються дивно? а якщо обгорнути li у дів то працює коректно -->
+          <nav class="header_nav">
+            <a href="#">
+              <img src="./icons/logo.svg" alt="logo beauty zone" />
+            </a>
+            <ul class="list_box">
+              <li><a class="link" href="#about-us-section">Про нас</a></li>
+              <li><a class="link" href="#why-section">Чому ми</a></li>
+              <li>
+                <a class="link" href="#procedures-section">Наші процедури</a>
+              </li>
+              <li><a class="link" href="#contacts-section">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="header_icons">
+            <li>
+              <a href="#"></a
+              ><img src="./icons/number.svg" alt="іконка телефону" />
+            </li>
+            <li>
+              <a href="#"></a
+              ><img src="./icons/facebook.svg" alt="іконка фейсбук" />
+            </li>
+            <li>
+              <a href="#"></a
+              ><img src="./icons/instagram.svg" alt="іконка інстаграм" />
+            </li>
           </ul>
-        </nav>
-        <ul class="header_icons">
-          <li>
-            <a href="#"></a
-            ><img src="./icons/number.svg" alt="іконка телефону" />
-          </li>
-          <li>
-            <a href="#"></a
-            ><img src="./icons/facebook.svg" alt="іконка фейсбук" />
-          </li>
-          <li>
-            <a href="#"></a
-            ><img src="./icons/instagram.svg" alt="іконка інстаграм" />
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>

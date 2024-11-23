@@ -131,11 +131,23 @@ section {
 }
 
 /* header section //////////////////////////////////*/
+
 .header_container {
   width: 100%;
   max-width: 1288px;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.header_box {
+  display: flex;
+  align-items: center;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .header_logo {
@@ -144,12 +156,19 @@ section {
   font-weight: 700;
 }
 
-.list_container {
+.list_box {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  flex-grow: 1;
+}
+
+.link {
   font-weight: 400;
   font-size: 18px;
 }
 
-.list_container :hover {
+.link:hover {
   color: var(--color-primary-blue);
   font-weight: 700;
 }
